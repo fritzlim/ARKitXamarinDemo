@@ -92,10 +92,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Urho">
-      <HintPath>..\packages\UrhoSharp.1.5.20\lib\Xamarin.iOS10\Urho.dll</HintPath>
-    </Reference>
     <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="Urho">
+      <HintPath>..\packages\UrhoSharp.1.5.22\lib\Xamarin.iOS10\Urho.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -115,6 +115,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="UrhoSharpReadme.txt" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
